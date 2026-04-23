@@ -28,9 +28,16 @@
   }
 
   .base {
-    width: 170px;
+    width: 500px;
     position: relative;
     z-index: 0;
+    filter: drop-shadow(0 0 100px var(--accent));
+    transition: filter 0.3s ease;
+    
+  }
+
+  .base:hover{
+    filter: drop-shadow(0 0 60px var(--accent));
   }
 
   .framework,

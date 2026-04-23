@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import LogoEryCheck from './assets/LogoEryCheck.svg'
 import './App.css'
 
 function App() {
@@ -11,9 +12,8 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <img src={LogoEryCheck} className="base" width="500" height="500" alt="" />
+          
         </div>
         <div>
           <h1>EryCheck</h1>
@@ -29,11 +29,6 @@ function App() {
         </button>
       </section>
 
-      
-
-  
-
-      
     </>
   )
 }
